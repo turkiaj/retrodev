@@ -1,0 +1,72 @@
+10 sys58648:if peek(56)>30 then print "SPunexpand & reload:":goto355
+15 poke56,29:poke55,0:clr:print"SPnReading Data...":print"qq0.83 Seconds Please"
+20 forx=7424to7527:read d:pokex,d:next
+25 hs=0:poke37154,127
+30 eg=0:goto255
+35 e=255-(peek(p1) and 60 or peek(p2) and 128):if eand8thend=w:goto105
+40 ifeand16thend=-t:g=35:goto105
+45 ifeand4thend=-w:goto105
+50 ifeand128thend=t:g=33:goto105
+55 fora=.to3:ifz>e(a)thenifpeek(e(a)+w)=nthe
+ni=w:goto65
+60 ifz<e(a)thenifpeek(e(a)-w)=ntheni=-w
+65 ifz>e(a)thenifpeek(e(a)+t)=ntheni=t:goto75
+70 ifz<e(a)thenifpeek(e(a)-t)=ntheni=-t
+75 ifpeek(e(a)+i)=nthenpokee(a),n:e(a)=e(a)+i:pokee(a)+c,t:pokee(a),38
+80 ife(a)+i=zthen140
+85 pokee(a),37:next
+90 hh=hh+1:ifhh>htthenhh=.:h=h-1:ifh<0then160
+95 print"sq]]]]]]]]]]]r";h;".  "
+100 goto35
+105 pokev-3,245:ifpeek(z+d)=nthenpokez,n:z=z+d:pokez+c,7:pokez,g:p
+okev-3,.:goto125
+110 pokev-3,.:ifpeek(z+d)=39andpeek(z+d*2)<>nthen130
+115 ifpeek(z+d)=39andpeek(z+d*2)=nthenqq=z+d:goto175
+120 ifpeek(z+d)<39then140
+130 fora=.to3:pokez+d,41:pokev-t,152:pokez,g:pokez+d,42:pokev-t,175:pokez,g+t:next
+135 pokez+d,n:pokev-t,.:s=s+10:print"sr>";s:goto55
+140 fory=.to15:pokez,g+t:pokev-t,161:pokee(a),37:pokez,g:foro=1to2
+0:next:pokee(a),38
+145 next:pokev-t,33:fory=.to15:pokev,y:pokev-t,245:foro=1to25:next:next:pokev-t,33
+150 sh=sh-1:print"sqq...r";sh".":ifsh=.then160
+155 goto35
+160 pokez,n
+165 print"sqqqqqqqqqqq]]]]]]regame over":print"qqqqqqqqqr   press.fire button";
+170 wait37137,32,32:goto30
+175 pokev-3,200:pokev-3,220:pokeqq,n:qq=qq+d
+180 ifpeek(qq)=nthenpokeqq+c,3:pokeqq,39:goto175
+185 pokev-3,.:ifpeek(qq)<39thenpokeqq+c,3:pokeqq,39:s=s+1000:print"sr>";s:goto195
+190 qq=qq-d:pokeqq+c,3:pokeqq,39:goto35
+195 fory=240to255:pokev-2,y:pokev-2,.:next
+200 fora=.to9:pokeqq+c,t:pokeqq,44:pokev-4,235:pokez,g+t:pokeqq,43:pokez,g:pokev-3,200
+205 pokev-4,.:next:pokeqq,37:pokev-3,.:eg=eg+1:ifeg>3then215
+210 goto35
+215 eg=.:fory=128to255:pokev-3,y:next:pokez,n:fora=.to3:pokee(a),n:next:z=7910
+220 fory=.to3:foro=240to255:pokev-3,o:fora=1to20:next:next:next:pokev-3,.
+225 fory=8141to7702step-1:ifpeek(y)=39thenpokey+c,t:pokev-4,240:pokey+c,3:s=s+25
+230 pokev-4,.:print"sr>";s:h=60:next:fory=140to255:pokev-3,y:next:pokev-3,.:pokez,g
+235 pokez+c,7:ht=ht-t:ifht<1thenht=1
+240 sh=sh+t:print"sqq...r";sh:lv=lv+1:print"sq...r";lv
+245 fory=1to10:b=7768+int(rnd(ti)*352):ifpeek(b)=nandb<>zthenpokeb+c,3:pokeb,39
+250 next:pokev-2,144:s=s+(h*10):print"sr>";s:pokev-2,.:goto35
+255 poke36869,242:print"Sq]]]]]]PrWelcome to":print"qq]PrThe Freeze Factory!!"
+260 print"q]]]by  Anne Onimous":print"q]]Fixed up by Dr. B."
+265 print"qq]]]]]]]Score:":print"q]]]]]]]"s:ifs>hsthenhs=s
+270 s=0:print"qq]]]]]High Score:":print"q]]]]]]]"hs
+275 poke36879,28:print"qqr]]Press _FIREP toplay"
+280 wait37137,32,0:wait37137,32,32
+285 v=36878:pokev-9,255:pokev,15:t=1:w=22:pokev+t,8
+290 print"Ser> 0":print"........rlevel 1":print"]]]]]]rtime: 60":c=30720
+295 fora=tto50:pokev-2,240:b=7768+int(rnd(t)*352):pokeb+c,3:pokeb,39:pokev-2,.:next
+300 fora=7746to7767:pokea,40:pokea+c,4:next:fora=7768to8120stepw:pokea+c,4:pokea,40
+305 pokea+21,40:pokea+21+c,4:next:fora=8121to8140:pokea+c,4:pokea,40:next
+310 fora=.to15:pokev,a:pokev-4,225:fory=1to75:next:next:pokev-4,.
+315 n=32:p1=37151:p2=p1+1:z=7910:h=60:sh=3:e(.)=7902:e(t)=7914:e(2)=7800
+320 e(3)=7998:pokez+c,7:pokez,33:ht=4:lv=1
+325 print"sqq.....!er";sh:g=33:goto35
+330 data0,0,0,0,0,0,0,0
+335 data 62,120,119,112,28,96,88,54,62,120,127,60,112,120,48,28,124,30,238,14,56,6,26
+340 data 108,124,30,254,60,14,30,12,56,60,90,36,24,60,90,36,102,60,90,36,90,60,24,36,195
+345 data 126,195,153,165,165,153,195,126,204,51,204,51,204,51,204,51,0,34,0,136,0,34,0
+350 data 136,68,0,17,0,68,0,17,0,0,24,60,126,219,219,126,60,0,0,60,126,255,153,126,60
+355 print"sqqqpoke648,30:sys58648:poke642,16:poke644,30:sys58232s"
